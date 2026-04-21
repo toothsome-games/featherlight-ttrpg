@@ -11,7 +11,7 @@ execute:
 website:
   title: "Featherlight TTRPG"
   favicon: images/logo_featherlight.png
-  repo-url: https://github.com/njlyon0/featherlight-ttrpg
+  repo-url: https://github.com/toothsome-games/featherlight-ttrpg
   repo-actions: [issue]
   navbar:
     background: primary
@@ -26,7 +26,7 @@ website:
       - text: "Design Team"
         href: design-team.qmd
       - icon: github
-        href: https://github.com/njlyon0/featherlight-ttrpg
+        href: https://github.com/toothsome-games/featherlight-ttrpg
   page-footer: 
     center: "Copyright &copy; 2026, Nicholas Lyon"
     background: secondary
