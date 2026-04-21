@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>TTRPG Safety Tools – Featherlight TTRPG</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/logo_featherlight.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-5a0710c5af94c091320d4d9fd3ab3e43.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-fc0821d8bf206d04e2e435b37a34f23f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-5a0710c5af94c091320d4d9fd3ab3e43.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Featherlight TTRPG</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./safety.html" aria-current="page"> 
+<span class="menu-text">Safety</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./settings.html"> 
+<span class="menu-text">Settings</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./design-team.html"> 
+<span class="menu-text">Design Team</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/njlyon0/featherlight-ttrpg"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#safety-tool-overview" id="toc-safety-tool-overview" class="nav-link active" data-scroll-target="#safety-tool-overview">Safety Tool Overview</a></li>
+  <li><a href="#why-use-safety-tools" id="toc-why-use-safety-tools" class="nav-link" data-scroll-target="#why-use-safety-tools">Why Use Safety Tools?</a></li>
+  <li><a href="#role-of-the-game-master" id="toc-role-of-the-game-master" class="nav-link" data-scroll-target="#role-of-the-game-master">Role of the Game Master</a></li>
+  <li><a href="#communication" id="toc-communication" class="nav-link" data-scroll-target="#communication">Communication</a>
+  <ul class="collapse">
+  <li><a href="#establish-enthusiastic-consent" id="toc-establish-enthusiastic-consent" class="nav-link" data-scroll-target="#establish-enthusiastic-consent">Establish Enthusiastic Consent</a></li>
+  </ul></li>
+  <li><a href="#beforeduring-game-safety-mechanisms" id="toc-beforeduring-game-safety-mechanisms" class="nav-link" data-scroll-target="#beforeduring-game-safety-mechanisms">Before/During Game Safety Mechanisms</a>
+  <ul class="collapse">
+  <li><a href="#tone-conversation" id="toc-tone-conversation" class="nav-link" data-scroll-target="#tone-conversation">Tone Conversation</a></li>
+  <li><a href="#lines-veils" id="toc-lines-veils" class="nav-link" data-scroll-target="#lines-veils">Lines &amp; Veils</a></li>
+  <li><a href="#the-x-card" id="toc-the-x-card" class="nav-link" data-scroll-target="#the-x-card">The X-Card</a></li>
+  </ul></li>
+  <li><a href="#post-game-safety-mechanisms" id="toc-post-game-safety-mechanisms" class="nav-link" data-scroll-target="#post-game-safety-mechanisms">Post-Game Safety Mechanisms</a>
+  <ul class="collapse">
+  <li><a href="#rose-bud-thorn" id="toc-rose-bud-thorn" class="nav-link" data-scroll-target="#rose-bud-thorn">Rose, Bud, Thorn</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/njlyon0/featherlight-ttrpg/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">TTRPG Safety Tools</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>When doing any sort of role-playing game, it is important to have some safety tools. This can be as simple as a conversation during “session zero” where you discuss the likely themes of the campaign or something more formal and systematized. I think these tools are under-discussed, especially relative to how beneficial they can be for maximizing the enjoyment of everyone at the table. Hopefully this document helps formalize things you’ve already known about and–maybe–introduces you to new tools!</p>
+<section id="safety-tool-overview" class="level2">
+<h2 class="anchored" data-anchor-id="safety-tool-overview">Safety Tool Overview</h2>
+<p>An important part of fun, engaging role-playing in any TTRPG system is an atmosphere of trust and safety at the table. This includes both among players and between players and the GM. Because <em>Featherlight</em>’s core design parameter was K.I.S.S. (<u>K</u>eep <u>I</u>t <u>S</u>tupidly <u>S</u>imple), there’s a lot of room for improv and thus a lot of spaces where clear and open communication can help prevent or resolve interpersonal issues so that everyone has the best possible time.</p>
+<p>Below is a non-exhaustive set of “table safety” guidelines meant to help interested folx create the kind of table atmosphere where they would be most comfortable playing. It’s absolutely possible–even likely–that not all of these tips will feel applicable to your table but I hope that at least some of these sections resonate and are helpful in helping people maximize the joy of their experience with <em>Featherlight</em> in particular and TTRPGs in general.</p>
+</section>
+<section id="why-use-safety-tools" class="level2">
+<h2 class="anchored" data-anchor-id="why-use-safety-tools">Why Use Safety Tools?</h2>
+<p>Simply, you should use safety tools because everyone at the table is more able to role-play to the fullest in an environment that feels safe and positive. Even something as seemingly trivial as a silly voice for a character can be a vulnerable choice that is supported when everyone at the table feels confident in taking risks or undermined when they don’t. <span class="key">When everyone at the table trusts one another you’ll find that everyone has more fun and the stories you tell as a group are that much more engaging and memorable</span>.</p>
+</section>
+<section id="role-of-the-game-master" class="level2">
+<h2 class="anchored" data-anchor-id="role-of-the-game-master">Role of the Game Master</h2>
+<p>The GM’s role in interpreting mechanics and facilitating improv may lead everyone at the table (GM included) to viewing the GM as the “leader” of the table. This can result in an implicit assumption that the GM is <em>solely</em> responsible for maintaining a positive table culture. However, it is absolutely possible that some sort of interpersonal conflict might arise between the GM and a player. It’s important to collaboratively identify table norms regardless of who takes on the role of GM for a particular campaign. This way everyone will feel more capable to speak up on behalf of themselves or a quieter table-mate.</p>
+<p>While the GM is often a logical person to <em>begin</em> such conversations and “check in” with players, everyone should feel empowered to speak up as needed. The GM can have an important role to play in terms of making sure the space is safe for anyone to speak up–including reflecting on their own behavior to ensure that they are in-line with community norms.</p>
+</section>
+<section id="communication" class="level2">
+<h2 class="anchored" data-anchor-id="communication">Communication</h2>
+<p>There are <em>a lot</em> of really cool mechanisms and discussion prompts specifically tailored by/for the TTRPG community but fundamentally <span class="key">table safety is about communication</span>. Preventing issues and resolving those that do arise in a transparent and honest manner requires good communication among participants. Before starting play, prospective participants should discuss how they’d like issues to be aired and resolved. When everyone feels safe, people are more likely to speak up if something doesn’t “sit right” with them or if they start having a bad time because of some piece of narrative or role play.</p>
+<section id="establish-enthusiastic-consent" class="level3">
+<h3 class="anchored" data-anchor-id="establish-enthusiastic-consent">Establish Enthusiastic Consent</h3>
+<p>It is important to make sure that people at the table enthusiastically consent to the table safety mechanism(s) used. This means that everyone at the table should actively agree instead of just not saying “no.” Communication should be clear and constant and care should be taken in framing these conversations so that no one feels pressured to agree to a system that doesn’t work for them.</p>
+<p>If a particular mechanism doesn’t work for someone at the table, ask them if there is an alternate mechanism they’d prefer to use. There are a lot of Google-able TTRPG safety mechanisms out there so it would be reasonable for a player to ask for some time to do their own research rather than needing to come up with an alternate method ‘on the spot.’</p>
+<p>Until at least one safety mechanism is in place, it is a good idea to avoid starting play. In the same way that you wouldn’t drive a car if you knew it didn’t have brakes, it is necessary to have a method for people at the table to express discomfort or anxiety with a given topic <em>before</em> that topic comes up during a session.</p>
+</section>
+</section>
+<section id="beforeduring-game-safety-mechanisms" class="level2">
+<h2 class="anchored" data-anchor-id="beforeduring-game-safety-mechanisms">Before/During Game Safety Mechanisms</h2>
+<p>Below are a few specific safety mechanism options for before and during play. Some or all may be a good fit for your table so consider which pieces of each might be the best fit.</p>
+<section id="tone-conversation" class="level3">
+<h3 class="anchored" data-anchor-id="tone-conversation">Tone Conversation</h3>
+<p>A broadly useful conversation to have as a table is what tone of campaign feels the most fun. A serious, brooding horror campaign can be a total blast as can a wacky off-the-wall campaign. Double checking that everyone is on the same page about the tone of play can be a great way to kick off character creation and make sure that the table feels unified in the kind of story they want to tell together.</p>
+<p>If there is disagreement about tone, consider running multiple campaigns with different tones and alternating week-to-week. It might also be appropriate to run a string of one shots where the tone can vary widely from session to session. If someone feels strongly about a particular tone, maybe that’s a good chance for them to try their hand at being the GM!</p>
+</section>
+<section id="lines-veils" class="level3">
+<h3 class="anchored" data-anchor-id="lines-veils">Lines &amp; Veils</h3>
+<p>A relatively common TTRPG safety tool is called “lines and veils”. Typically during session zero, the GM and each player should share what topics they are not comfortable being included at all (these are “lines”), and which topics they are comfortable with being included indirectly (i.e., behind a “veil”). When players identify a line or a veil, that is typically a great time to discuss with the GM about how they’d like that handled in-game.</p>
+<p>Everyone at the table should feel free to identify new lines and veils during play as needed. Many people do not know all of their own triggers and/or sensitive topics and it is completely appropriate for them to take a step back from role-play and add a line/veil to the set identified at the start of the campaign/session.</p>
+<p>In some contexts, this means completely avoiding certain topics. In others, it might be appropriate to change how a situation is described while keeping the mechanics consistent (e.g., replacing ravenous beasts with undead animals when a player has a line about violence against animals). In either case, it is a good idea to confirm with players how they would like those situations navigated <em>before</em> those situations arise in-game.</p>
+<p>Some common examples of sensitive topics that may be lines or veils for some players/GMs include:</p>
+<div class="columns">
+<div class="column" style="width:33%;">
+<ul>
+<li>animal cruelty</li>
+<li>bigotry (racism, sexism, etc.)</li>
+<li>child abuse</li>
+</ul>
+</div><div class="column" style="width:33%;">
+<ul>
+<li>consensual sex</li>
+<li>sexual violence</li>
+<li>serious illness</li>
+</ul>
+</div><div class="column" style="width:33%;">
+<ul>
+<li>spiders</li>
+<li>suicide / self-harm</li>
+<li>torture</li>
+</ul>
+</div>
+</div>
+<p>If a line or a veil is crossed, it might be sufficient to simply apologize and resume the narrative. However, ending the session early or taking a small break might also be warranted to allow the everyone at the table to emotionally reset before resuming play. After a session where a line/veil is crossed it is a good idea for folx at the table to check in with one another to make sure that everyone is still feeling good personally and is still enjoying the game. This can be done one-on-one (likely with the GM following up with each player) or collaboratively as a group depending on the preference and comfort-level of the people at the table.</p>
+<p>Repetitive crossing of lines or veils is absolutely inappropriate and likely warrants intervention by the GM or a player. A line or veil identified by someone at the table should be respected by everyone at the table whether or not they personally hold that topic as a line or a veil. Removing a problem player, or leaving a problematic table is completely reasonable in contexts like this. Ultimately playing a TTRPG should be a fun experience and not playing at all is usually better than playing at a table that does not respect the boundaries others have identified.</p>
+</section>
+<section id="the-x-card" class="level3">
+<h3 class="anchored" data-anchor-id="the-x-card">The X-Card</h3>
+<p>The <a href="https://docs.google.com/document/d/1SB0jsx34bWHZWbnNIVVuMjhDkrdFGo1_hSC2BWPlI3A/edit?tab=t.0">X-Card</a> is a simple and useful tool for players to indicate that a current scene crosses a line for them. Just as the name suggests, all players have a piece of paper with an “X” on it. If a player is uncomfortable with a particular scene, they simply tap their X-card or hold it up to the GM and the GM should then either skip this scene entirely or quickly end it without detail. If it is unclear what specific part of the scene was a problem it is appropriate to ask the player to clarify. However, players using the X-card <em>should not</em> be made to explain or justify their reasons for using the card. This sort of ‘no questions asked’ policy will reduce the barrier to people using the card in-game.</p>
+</section>
+</section>
+<section id="post-game-safety-mechanisms" class="level2">
+<h2 class="anchored" data-anchor-id="post-game-safety-mechanisms">Post-Game Safety Mechanisms</h2>
+<p>Below are some options for post-game safety tools. Again, some facets of each might be a better fit for your table than others so feel free to pick-and-choose what feels best.</p>
+<section id="rose-bud-thorn" class="level3">
+<h3 class="anchored" data-anchor-id="rose-bud-thorn">Rose, Bud, Thorn</h3>
+<p>If you as the GM want to get a quick ‘temperature check’ of your players after a session “rose, bud, thorn” can be a simple and effective method. Simply ask your players the following:</p>
+<ul>
+<li><strong>Rose</strong> – What was your favorite part of the session?</li>
+<li><strong>Bud</strong> – What are you most looking forward to in the next session?</li>
+<li><strong>Thorn</strong> – What was something you would have done differently / wish had gone differently?</li>
+</ul>
+<p>Because the positive elements come first, it can make it easier for player’s to voice critical feedback afterwards (and make it easier for the GM to hear and accept!). It is also fairly simple which means it is well-suited to quickly gauging how people are feeling at the table.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/toothsome-games\.github\.io\/featherlight-ttrpg\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>Copyright © 2026, Nicholas Lyon</p>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/njlyon0/featherlight-ttrpg/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
