@@ -6,11 +6,11 @@ _Featherlight_ is the work of a small but dedicated team and an **invaluable** s
 
 ::::{.columns}
 :::{.column width="49%"}
-### Design Lead
+### {{< fa feather >}} Design Lead
 
 Nick J Lyon -- [{{< fa globe >}}](https://njlyon0.github.io/)
 
-### Artists
+### {{< fa paintbrush >}} Artists
 
 - Galactic Spiral Characters: **Sami Briggs** -- [{{< fa globe >}}](https://samibriggs.carrd.co/)
 - Adirilan Characters: **TBD**
@@ -21,11 +21,11 @@ Nick J Lyon -- [{{< fa globe >}}](https://njlyon0.github.io/)
 :::{.column width="2%"}
 :::
 :::{.column width="49%"}
-### Additional Design & Editing
+### {{< fa user-pen >}} Additional Design & Editing
 
 Angela Bunning, Brittany Cavazos, Ky Cofield, Wade Dismukes, Erica Holdmore, Josh Justison, Will Ruman, Gus Thies
 
-#### Alpha Playtesters
+#### {{< fa gamepad >}} Alpha Playtesters
 
 Angela Bunning, Bekka Cavazos, Tori Cavazos, Ky Cofield, Wade Dismukes, Marcy Palomino, Declan Price
 :::
