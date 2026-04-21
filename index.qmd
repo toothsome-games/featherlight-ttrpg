@@ -2,7 +2,7 @@
 title: "Welcome to _Featherlight!_"
 ---
 
-<img src="images/logo_featherlight.png" alt="Featherlight logo--a stylized blue feather on an orange background" width="20%" align="right" />
+<img src="images/logo_featherlight-text.png" alt="Featherlight logo--a stylized blue feather on an orange background" width="30%" align="right" />
 
 _Featherlight_ is a rules-light, setting-neutral tabletop role-playing game (TTRPG). _Featherlight_ is built to be as welcoming as possible for novice TTRPG players while still providing an enjoyable experience for more experienced players. This purpose also helps it be a great starting point for players interested in being the game master but intimidated by "crunchier" systems where it can feel impossible to know the rules well enough to be the arbiter of them in a game. Additionally, because the mechanics are so flexible, they can be easily applied to any world where you want to spend some more time (e.g., beloved book series, popular anime, personal OC/homebrew, etc.)!
 
