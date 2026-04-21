@@ -54,6 +54,9 @@ rsconnect/
 # Mac files
 .DS_Store
 
+# Quarto Jupyter notebooks
+**/*.quarto_ipynb
+
 # Unwanted Quarto folders
 /.quarto/
 docs/
