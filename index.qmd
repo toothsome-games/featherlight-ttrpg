@@ -1,0 +1,53 @@
+---
+title: "Welcome to _Featherlight!_"
+---
+
+<img src="images/logo_featherlight.png" alt="Featherlight logo--a stylized blue feather on an orange background" width="20%" align="right" />
+
+_Featherlight_ is a rules-light, setting-neutral tabletop role-playing game (TTRPG). _Featherlight_ is built to be as welcoming as possible for novice TTRPG players while still providing an enjoyable experience for more experienced players. This purpose also helps it be a great starting point for players interested in being the game master but intimidated by "crunchier" systems where it can feel impossible to know the rules well enough to be the arbiter of them in a game. Additionally, because the mechanics are so flexible, they can be easily applied to any world where you want to spend some more time (e.g., beloved book series, popular anime, personal OC/homebrew, etc.)!
+
+In short, **_Featherlight_ is built to be the backdrop for you to take big narrative swings in whatever setting sparks the most joy for your table**. Have fun and good luck!
+
+## Get Started
+
+:::{.panel-tabset}
+### Core Rulebook
+
+**The core rulebook of _Featherlight_ is available now!** Click the download link below to get the PDF from {{< fa brands itch-io >}} itch.io.
+
+<p align="center"/>
+<iframe frameborder="0" src="https://itch.io/embed/3873197?linkback=true" width="552" height="167"><a href="https://njlyon0.itch.io/featherlight-ttrpg">Featherlight TTRPG by Nick Lyon</a></iframe>
+</p>
+
+It's PWYW ("pay what you want") but if your budget can support it, $5 would be amazing and would go to support me in commissioning artists for the two custom _Featherlight_ settings that I am working on.
+
+Once I have setting / character art, I'll be releasing new versions of the rulebook that include worldbuilding information and quest hooks for both settings as well as the lovely images that will help bring them to life.
+
+### Following _Featherlight_
+
+To stay up-to-date on _Featherlight_ news, you can:
+
+- Follow it on {{< fa brands tumblr >}} Tumblr ([tumblr.com/featherlight-ttrpg](https://www.tumblr.com/featherlight-ttrpg))
+- Check it out on {{< fa brands itch-io >}} itch.io ([njlyon0.itch.io/featherlight-ttrpg](https://njlyon0.itch.io/featherlight-ttrpg))
+- Consider becoming a patron on {{< fa brands patreon >}} Patreon ([patreon.com/c/ToothsomeGames](https://www.patreon.com/c/ToothsomeGames))
+- Or just keep an eye on this website!
+
+Patreon patrons get the additional perk of being listed by their username on the first page of the rulebook each time I release a new version of the rulebook.
+
+### Character Sheet
+
+You can use any piece of scratch paper as a character sheet for _Featherlight_ but if you'd prefer a more formal character sheet, download one [here](https://github.com/njlyon0/featherlight-ttrpg/blob/main/resources/featherlight_character-sheet.png). The download icon ({{< fa download >}}) is just above the top right corner of the image.
+
+If you print this at home, do two sheets per standard piece of paper because the sheet is designed to be the size of a postcard (4 in x 6 in) so two should fit nicely on a 8.5 in x 11 in piece of paper.
+
+### Feedback
+
+If you've played a _Featherlight_ session, served as the game master, or even just read the rulebook and want to share feedback: thank you! **_Featherlight_ is a labor of love and it can only be improved by hearing what worked (or didn't) in your experiences at home with the game.**
+
+If you have feedback, please send me an email (nickjlyon \[at\] gmail \[dot\] com) or message me on {{< fa brands tumblr >}} Tumblr ([\@featherlight-ttrpg](https://www.tumblr.com/featherlight-ttrpg)) and we can chat!
+
+:::
+
+## Note on Artificial Intelligence
+
+**Generative AI was not used in <u>any</u> facet of this work.** Please respect this by not feeding any _Featherlight_ content (from this website or elsewhere) into those systems. Thanks!

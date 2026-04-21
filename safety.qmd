@@ -1,0 +1,100 @@
+---
+title: "TTRPG Safety Tools"
+---
+
+When doing any sort of role-playing game, it is important to have some safety tools. This can be as simple as a conversation during "session zero" where you discuss the likely themes of the campaign or something more formal and systematized. I think these tools are under-discussed, especially relative to how beneficial they can be for maximizing the enjoyment of everyone at the table. Hopefully this document helps formalize things you've already known about and--maybe--introduces you to new tools!
+
+## Safety Tool Overview
+
+An important part of fun, engaging role-playing in any TTRPG system is an atmosphere of trust and safety at the table. This includes both among players and between players and the GM. Because _Featherlight_'s core design parameter was K.I.S.S. (<u>K</u>eep <u>I</u>t <u>S</u>tupidly <u>S</u>imple), there's a lot of room for improv and thus a lot of spaces where clear and open communication can help prevent or resolve interpersonal issues so that everyone has the best possible time.
+
+Below is a non-exhaustive set of "table safety" guidelines meant to help interested folx create the kind of table atmosphere where they would be most comfortable playing. It's absolutely possible--even likely--that not all of these tips will feel applicable to your table but I hope that at least some of these sections resonate and are helpful in helping people maximize the joy of their experience with _Featherlight_ in particular and TTRPGs in general.
+
+## Why Use Safety Tools?
+
+Simply, you should use safety tools because everyone at the table is more able to role-play to the fullest in an environment that feels safe and positive. Even something as seemingly trivial as a silly voice for a character can be a vulnerable choice that is supported when everyone at the table feels confident in taking risks or undermined when they don't. [When everyone at the table trusts one another you'll find that everyone has more fun and the stories you tell as a group are that much more engaging and memorable]{.key}.
+
+## Role of the Game Master
+
+The GM's role in interpreting mechanics and facilitating improv may lead everyone at the table (GM included) to viewing the GM as the "leader" of the table. This can result in an implicit assumption that the GM is _solely_ responsible for maintaining a positive table culture. However, it is absolutely possible that some sort of interpersonal conflict might arise between the GM and a player. It's important to collaboratively identify table norms regardless of who takes on the role of GM for a particular campaign. This way everyone will feel more capable to speak up on behalf of themselves or a quieter table-mate.
+
+While the GM is often a logical person to _begin_ such conversations and "check in" with players, everyone should feel empowered to speak up as needed. The GM can have an important role to play in terms of making sure the space is safe for anyone to speak up--including reflecting on their own behavior to ensure that they are in-line with community norms.
+
+## Communication
+
+There are _a lot_ of really cool mechanisms and discussion prompts specifically tailored by/for the TTRPG community but fundamentally [table safety is about communication]{.key}. Preventing issues and resolving those that do arise in a transparent and honest manner requires good communication among participants. Before starting play, prospective participants should discuss how they'd like issues to be aired and resolved. When everyone feels safe, people are more likely to speak up if something doesn't "sit right" with them or if they start having a bad time because of some piece of narrative or role play.
+
+### Establish Enthusiastic Consent
+
+It is important to make sure that people at the table enthusiastically consent to the table safety mechanism(s) used. This means that everyone at the table should actively agree instead of just not saying "no." Communication should be clear and constant and care should be taken in framing these conversations so that no one feels pressured to agree to a system that doesn't work for them.
+
+If a particular mechanism doesn't work for someone at the table, ask them if there is an alternate mechanism they'd prefer to use. There are a lot of Google-able TTRPG safety mechanisms out there so it would be reasonable for a player to ask for some time to do their own research rather than needing to come up with an alternate method 'on the spot.'
+
+Until at least one safety mechanism is in place, it is a good idea to avoid starting play. In the same way that you wouldn't drive a car if you knew it didn't have brakes, it is necessary to have a method for people at the table to express discomfort or anxiety with a given topic _before_ that topic comes up during a session.
+
+## Before/During Game Safety Mechanisms
+
+Below are a few specific safety mechanism options for before and during play. Some or all may be a good fit for your table so consider which pieces of each might be the best fit.
+
+### Tone Conversation
+
+A broadly useful conversation to have as a table is what tone of campaign feels the most fun. A serious, brooding horror campaign can be a total blast as can a wacky off-the-wall campaign. Double checking that everyone is on the same page about the tone of play can be a great way to kick off character creation and make sure that the table feels unified in the kind of story they want to tell together.
+
+If there is disagreement about tone, consider running multiple campaigns with different tones and alternating week-to-week. It might also be appropriate to run a string of one shots where the tone can vary widely from session to session. If someone feels strongly about a particular tone, maybe that's a good chance for them to try their hand at being the GM!
+
+### Lines & Veils
+
+A relatively common TTRPG safety tool is called "lines and veils". Typically during session zero, the GM and each player should share what topics they are not comfortable being included at all (these are "lines"), and which topics they are comfortable with being included indirectly (i.e., behind a "veil"). When players identify a line or a veil, that is typically a great time to discuss with the GM about how they'd like that handled in-game.
+
+Everyone at the table should feel free to identify new lines and veils during play as needed. Many people do not know all of their own triggers and/or sensitive topics and it is completely appropriate for them to take a step back from role-play and add a line/veil to the set identified at the start of the campaign/session.
+
+In some contexts, this means completely avoiding certain topics. In others, it might be appropriate to change how a situation is described while keeping the mechanics consistent (e.g., replacing ravenous beasts with undead animals when a player has a line about violence against animals). In either case, it is a good idea to confirm with players how they would like those situations navigated _before_ those situations arise in-game.
+
+Some common examples of sensitive topics that may be lines or veils for some players/GMs include:
+
+::::{.columns}
+
+:::{.column width="33%"}
+
+- animal cruelty
+- bigotry (racism, sexism, etc.)
+- child abuse
+
+:::
+:::{.column width="33%"}
+
+- consensual sex
+- sexual violence
+- serious illness
+
+:::
+:::{.column width="33%"}
+
+- spiders
+- suicide / self-harm
+- torture
+
+:::
+::::
+
+If a line or a veil is crossed, it might be sufficient to simply apologize and resume the narrative. However, ending the session early or taking a small break might also be warranted to allow the everyone at the table to emotionally reset before resuming play. After a session where a line/veil is crossed it is a good idea for folx at the table to check in with one another to make sure that everyone is still feeling good personally and is still enjoying the game. This can be done one-on-one (likely with the GM following up with each player) or collaboratively as a group depending on the preference and comfort-level of the people at the table.
+
+Repetitive crossing of lines or veils is absolutely inappropriate and likely warrants intervention by the GM or a player. A line or veil identified by someone at the table should be respected by everyone at the table whether or not they personally hold that topic as a line or a veil. Removing a problem player, or leaving a problematic table is completely reasonable in contexts like this. Ultimately playing a TTRPG should be a fun experience and not playing at all is usually better than playing at a table that does not respect the boundaries others have identified.
+
+### The X-Card
+
+The [X-Card](https://docs.google.com/document/d/1SB0jsx34bWHZWbnNIVVuMjhDkrdFGo1_hSC2BWPlI3A/edit?tab=t.0) is a simple and useful tool for players to indicate that a current scene crosses a line for them. Just as the name suggests, all players have a piece of paper with an "X" on it. If a player is uncomfortable with a particular scene, they simply tap their X-card or hold it up to the GM and the GM should then either skip this scene entirely or quickly end it without detail. If it is unclear what specific part of the scene was a problem it is appropriate to ask the player to clarify. However, players using the X-card _should not_ be made to explain or justify their reasons for using the card. This sort of 'no questions asked' policy will reduce the barrier to people using the card in-game.
+
+## Post-Game Safety Mechanisms
+
+Below are some options for post-game safety tools. Again, some facets of each might be a better fit for your table than others so feel free to pick-and-choose what feels best.
+
+### Rose, Bud, Thorn
+
+If you as the GM want to get a quick 'temperature check' of your players after a session "rose, bud, thorn" can be a simple and effective method. Simply ask your players the following:
+
+- **Rose** -- What was your favorite part of the session?
+- **Bud** -- What are you most looking forward to in the next session?
+- **Thorn** -- What was something you would have done differently / wish had gone differently?
+
+Because the positive elements come first, it can make it easier for player's to voice critical feedback afterwards (and make it easier for the GM to hear and accept!). It is also fairly simple which means it is well-suited to quickly gauging how people are feeling at the table.

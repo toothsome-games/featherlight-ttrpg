@@ -1,0 +1,42 @@
+project:
+  type: website
+  execute-dir: project
+  output-dir: docs
+  render:
+    - "*.qmd"
+
+execute: 
+  freeze: auto
+
+website:
+  title: "Featherlight TTRPG"
+  favicon: images/logo_featherlight.png
+  repo-url: https://github.com/njlyon0/featherlight-ttrpg
+  repo-actions: [issue]
+  navbar:
+    background: primary
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Safety"
+        href: safety.qmd
+      - text: "Settings"
+        href: settings.qmd
+    right: 
+      - text: "Design Team"
+        href: design-team.qmd
+      - icon: github
+        href: https://github.com/njlyon0/featherlight-ttrpg
+  page-footer: 
+    center: "Copyright &copy; 2026, Nicholas Lyon"
+    background: secondary
+
+format:
+  html:
+    theme:
+      light: [_extensions/njlyon0/lyon_theme/lyon_light.scss, bonus.scss]
+      dark: [_extensions/njlyon0/lyon_theme/lyon_dark.scss, bonus.scss]
+    mainfont: Open Sans
+    toc: true
+    link-external-newwindow: true
+    link-external-icon: false

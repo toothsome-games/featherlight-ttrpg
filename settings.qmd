@@ -1,0 +1,18 @@
+---
+title: "Example Settings"
+---
+
+Just like with the rulebook, while the _Featherlight_ system can be used in any setting it does make sense to pick one setting so players can ground their characters in a particular world and know the context in the world where their characters exist. You can absolutely use _Featherlight_ in existing settings that you use for other TTRPGs but I felt it would be remiss to not include some settings unique to _Featherlight_ to serve as a jumping-off point. Hope these settings spark your curiosity and get you excited to start playing the game!
+
+## The Galactic Spiral
+
+Humanity has reached the stars. Spacefaring technology has long since enabled people to colonize habitable worlds, terraform semi-habitable planets, and live out their days in countless self-contained space stations scattered throughout charted space. Only a few species are commonly found in the Spiral but the odds of encountering lesser-known species are never zero–especially when one explores the far edges of known space. While the Galactic Spiral lacks any centralized authority, there are certainly factions with more localized power as well as their own motivations and goals. 
+
+Humans, both planet-borne and void-wrought, exist on a variety of settled worlds and space stations. They share the galaxy with the Scouts' Guild--sentient machine intelligences dedicated to exploring the galaxy--and the Ralhion--an intelligent, gregarious alien species somewhat resembling the octopus of Old Earth.
+
+## Adirilan
+
+The world of Adirilan is one in which everyone is capable of performing magic but in so doing, the arcane energies are reflected back on the user. The inhabitants of Adirilan have long recognized this principle of “Arcane Reciprocity” and the lives of the people of this world are fundamentally shaped by it. People who routinely use magic for the same purpose are physically marked by that specialization. This change occurs over an individual’s lifetime but is irreversible, so most cultures and nations have important traditions to celebrate when a child interested in magic chooses their specialization.
+
+In addition to the humans of Adirilan–with their many varied forms and cultures–this world has a diversity of flora and fauna. A “monster” in Adirilan is either a beast or plant that has been modified by magic cast on it by someone else, or a non-human creature that is able to cast magic itself and has been altered as a consequence of Arcane Reciprocity. While the latter type of monster is dramatically more dangerous to humans, quickly placing an encountered monster into this dichotomy is not easily done. Because of this, sensible human travelers approach any magically-touched creature with a healthy dose of caution if they cannot avoid them.
+
