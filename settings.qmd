@@ -1,5 +1,5 @@
 ---
-title: "Example Settings"
+title: "Settings"
 ---
 
 Just like with the rulebook, while the _Featherlight_ system can be used in any setting it does make sense to pick one setting so players can ground their characters in a particular world and know the context in the world where their characters exist. You can absolutely use _Featherlight_ in existing settings that you use for other TTRPGs but I felt it would be remiss to not include some settings unique to _Featherlight_ to serve as a jumping-off point. Hope these settings spark your curiosity and get you excited to start playing the game!
