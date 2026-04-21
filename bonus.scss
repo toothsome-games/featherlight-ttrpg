@@ -1,0 +1,24 @@
+/*-- scss:defaults --*/
+
+$blue-4: #283E82;
+$blue-3: #077DC2;
+$blue-2: #01BAEF;
+$blue-1: #5DDBFE;
+$orange-4: #EB6534;
+$orange-3: #FF9B00;
+$orange-2: #F9B000;
+$orange-1: #FFD879;
+
+$cream: #F4F3EE;
+$gray-0: #d6d6d6;
+$gray-1: #BCB8B1;
+$gray-2: #8A817C;
+$gray-3: #222823;
+$gray-4: #191919;
+$black: #08090A;
+
+/*-- scss:rules --*/
+
+// Text color shortcuts
+.vocab { color: $orange-4; font-weight: bolder; }
+.key { color: $blue-3; font-weight: bolder; }
