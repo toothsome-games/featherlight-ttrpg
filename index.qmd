@@ -1,6 +1,4 @@
----
-title: "Welcome to _Featherlight!_"
----
+## Welcome to _Featherlight!_
 
 <img src="images/logo_featherlight-text.png" alt="Featherlight logo--a stylized blue feather on an orange background" width="30%" align="right" />
 
@@ -8,7 +6,7 @@ _Featherlight_ is a rules-light, setting-neutral tabletop role-playing game (TTR
 
 In short, **_Featherlight_ is built to be the backdrop for you to take big narrative swings in whatever setting sparks the most joy for your table**. Have fun and good luck!
 
-## Get Started
+### Getting Started
 
 :::{.panel-tabset}
 ### Core Rulebook
@@ -36,9 +34,9 @@ Patreon patrons get the additional perk of being listed by their username on the
 
 ### Character Sheet
 
-You can use any piece of scratch paper as a character sheet for _Featherlight_ but if you'd prefer a more formal character sheet, download one [here](https://github.com/njlyon0/featherlight-ttrpg/blob/main/resources/featherlight_character-sheet.png). The download icon ({{< fa download >}}) is just above the top right corner of the image.
+You can use any piece of scratch paper as a character sheet for _Featherlight_ but if you'd prefer a more formal character sheet, download one [here](https://github.com/toothsome-games/featherlight-ttrpg/blob/main/resources/featherlight_character-sheet.png). The download icon ({{< fa download >}}) is just above the top right corner of the image.
 
-If you print this at home, do two sheets per standard piece of paper because the sheet is designed to be the size of a postcard (4 in x 6 in) so two should fit nicely on a 8.5 in x 11 in piece of paper.
+If you print this at home, do two sheets per standard piece of paper because the sheet is designed to be the size of a postcard (4x6") so two should fit nicely on a 8.5x11" piece of paper.
 
 ### Feedback
 
@@ -50,4 +48,4 @@ If you have feedback, please send me an email (nickjlyon \[at\] gmail \[dot\] co
 
 ## Note on Artificial Intelligence
 
-**Generative AI was not used in <u>any</u> facet of this work.** Please respect this by not feeding any _Featherlight_ content (from this website or elsewhere) into those systems. Thanks!
+**AI was not used in <u>any</u> facet of this work.** Please respect this by not feeding any _Featherlight_ content (from this website or elsewhere) into those systems. Thanks!
