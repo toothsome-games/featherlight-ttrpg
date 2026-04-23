@@ -8,14 +8,19 @@ _Featherlight_ is the work of a small but dedicated team and an **invaluable** s
 :::{.column width="49%"}
 ### {{< fa feather >}} Design Lead
 
-Nick J Lyon -- [{{< fa globe >}}](https://njlyon0.github.io/)
+[Nick J Lyon]((https://njlyon0.github.io/))
 
 ### {{< fa paintbrush >}} Artists
 
-- Galactic Spiral Characters: **Sami Briggs** -- [{{< fa globe >}}](https://samibriggs.carrd.co/)
-- Adirilan Characters: **TBD**
-- Setting Splash Pages: **TBD**
-- _Featherlight_ Logo: **Gabriel De La Rosa**  -- [{{< fa globe >}}](https://www.gabrieldelarosa.com/)
+Featherlight Logo: **[Gabriel De La Rosa](https://www.gabrieldelarosa.com/)**
+
+Cover Art & Setting Splash Pages: **TBD**
+
+Adirilan Map: **TBD**
+
+Adirilan Characters: **TBD**
+
+Galactic Spiral Characters: **[Sami Briggs](https://samibriggs.carrd.co/) (Smai)**
 
 :::
 :::{.column width="2%"}
