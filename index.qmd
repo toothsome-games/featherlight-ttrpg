@@ -14,7 +14,7 @@ In short, **_Featherlight_ is built to be the backdrop for you to take big narra
 **The core rulebook of _Featherlight_ is available now!** Click the download link below to get the PDF from {{< fa brands itch-io >}} itch.io.
 
 <p align="center"/>
-<iframe frameborder="0" src="https://itch.io/embed/3873197?linkback=true" width="552" height="167"><a href="https://njlyon0.itch.io/featherlight-ttrpg">Featherlight TTRPG by Nick Lyon</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed/3873197?linkback=true" width="552" height="167"><a href="https://toothsome-games.itch.io/featherlight-ttrpg">Featherlight TTRPG by Toothsome Games</a></iframe>
 </p>
 
 It's PWYW ("pay what you want") but if your budget can support it, $5 would be amazing and would go to support me in commissioning artists for the two custom _Featherlight_ settings that I am working on.
@@ -26,7 +26,7 @@ Once I have setting / character art, I'll be releasing new versions of the ruleb
 To stay up-to-date on _Featherlight_ news, you can:
 
 - Follow it on {{< fa brands tumblr >}} Tumblr ([tumblr.com/featherlight-ttrpg](https://www.tumblr.com/featherlight-ttrpg))
-- Check it out on {{< fa brands itch-io >}} itch.io ([njlyon0.itch.io/featherlight-ttrpg](https://njlyon0.itch.io/featherlight-ttrpg))
+- Check it out on {{< fa brands itch-io >}} itch.io ([toothsome-games.itch.io/featherlight-ttrpg](https://toothsome-games.itch.io/featherlight-ttrpg))
 - Consider becoming a patron on {{< fa brands patreon >}} Patreon ([patreon.com/c/ToothsomeGames](https://www.patreon.com/c/ToothsomeGames))
 - Or just keep an eye on this website!
 
