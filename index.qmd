@@ -6,8 +6,6 @@ _Featherlight_ is a rules-light, setting-neutral tabletop role-playing game (TTR
 
 In short, **_Featherlight_ is built to be the backdrop for you to take big narrative swings in whatever setting sparks the most joy for your table**. Have fun and good luck!
 
-### Getting Started
-
 :::{.panel-tabset}
 ### Core Rulebook
 
@@ -33,7 +31,15 @@ Just like the rulebook, this guide is PWYW, but if you can afford $2, that would
 
 If you like what you see in this guide, consider checking out the full rulebook for useful graphics, more description, and tips for those interested in running a Featherlight game at their table!
 
-### Following _Featherlight_
+### Character Sheet
+
+You can use any piece of scratch paper as a character sheet for _Featherlight_ but if you'd prefer a more formal character sheet, download one [here](https://github.com/toothsome-games/featherlight-ttrpg/blob/main/resources/featherlight_character-sheet.png). The download icon ({{< fa download >}}) is just above the top right corner of the image.
+
+If you print this at home, do two sheets per standard piece of paper because the sheet is designed to be the size of a postcard (4x6") so two should fit nicely on a 8.5x11" piece of paper.
+
+:::
+
+## Following _Featherlight_
 
 To stay up-to-date on _Featherlight_ news, you can:
 
@@ -42,21 +48,11 @@ To stay up-to-date on _Featherlight_ news, you can:
 - Consider becoming a patron on {{< fa brands patreon >}} Patreon ([patreon.com/c/ToothsomeGames](https://www.patreon.com/c/ToothsomeGames))
 - Or just keep an eye on this website!
 
-Patreon patrons get the additional perk of being listed by their username on the first page of the rulebook each time I release a new version of the rulebook.
-
-### Character Sheet
-
-You can use any piece of scratch paper as a character sheet for _Featherlight_ but if you'd prefer a more formal character sheet, download one [here](https://github.com/toothsome-games/featherlight-ttrpg/blob/main/resources/featherlight_character-sheet.png). The download icon ({{< fa download >}}) is just above the top right corner of the image.
-
-If you print this at home, do two sheets per standard piece of paper because the sheet is designed to be the size of a postcard (4x6") so two should fit nicely on a 8.5x11" piece of paper.
-
 ### Feedback
 
 If you've played a _Featherlight_ session, served as the game master, or even just read the rulebook and want to share feedback: thank you! **_Featherlight_ is a labor of love and it can only be improved by hearing what worked (or didn't) in your experiences at home with the game.**
 
 If you have feedback, please send me an email (nickjlyon \[at\] gmail \[dot\] com) or message me on {{< fa brands tumblr >}} Tumblr ([\@featherlight-ttrpg](https://www.tumblr.com/featherlight-ttrpg)) and we can chat!
-
-:::
 
 ## Note on Artificial Intelligence
 
