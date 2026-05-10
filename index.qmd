@@ -14,12 +14,24 @@ In short, **_Featherlight_ is built to be the backdrop for you to take big narra
 **The core rulebook of _Featherlight_ is available now!** Click the download link below to get the PDF from {{< fa brands itch-io >}} itch.io.
 
 <p align="center"/>
-<iframe frameborder="0" src="https://itch.io/embed/3873197?linkback=true" width="552" height="167"><a href="https://toothsome-games.itch.io/featherlight-ttrpg">Featherlight TTRPG by Toothsome Games</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed/3873197?linkback=true&amp;link_color=077DC2&amp;border_color=283E82" width="600" height="167"><a href="https://toothsome-games.itch.io/featherlight-ttrpg">Featherlight Rulebook by Toothsome Games</a></iframe>
 </p>
 
 It's PWYW ("pay what you want") but if your budget can support it, $5 would be amazing and would go to support me in commissioning artists for the two custom _Featherlight_ settings that I am working on.
 
 Once I have setting / character art, I'll be releasing new versions of the rulebook that include worldbuilding information and quest hooks for both settings as well as the lovely images that will help bring them to life.
+
+### Quick-Start Guide
+
+A one-page, 'quick-start' guide to Featherlight is also available on {{< fa brands itch-io >}} itch.io. Check it out for an at-a-glance overview of the fundamental mechanics of Featherlight!
+
+<p align="center"/>
+<iframe frameborder="0" src="https://itch.io/embed/4561528?linkback=true&amp;link_color=077DC2&amp;border_color=283E82" width="600" height="167"><a href="https://toothsome-games.itch.io/featherlight-quickstart">Featherlight Quick-Start Guide by Toothsome Games</a></iframe>
+</p>
+
+Just like the rulebook, this guide is PWYW, but if you can afford $2, that would be awesome and--again, just like the rulebook--would go to support the art I'm commissioning for custom Featherlight settings and quest hooks.
+
+If you like what you see in this guide, consider checking out the full rulebook for useful graphics, more description, and tips for those interested in running a Featherlight game at their table!
 
 ### Following _Featherlight_
 
