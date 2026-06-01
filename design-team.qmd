@@ -28,10 +28,10 @@ Galactic Spiral Characters: **[Sami Briggs](https://samibriggs.carrd.co/) (Smai)
 :::{.column width="49%"}
 ### {{< fa user-pen >}} Additional Design & Editing
 
-Angela Bunning, Brittany Cavazos, Kylin Cofield, Wade Dismukes, Erica Holdmore, Josh Justison, Will Ruman, Gus Thies
+Angela Bunning^{{< fa gamepad >}}^, Brittany Cavazos, Kylin Cofield^{{< fa gamepad >}}^, Wade Dismukes^{{< fa gamepad >}}^, Erica Holdmore, Josh Justison, Will Ruman, Gus Thies
 
 #### {{< fa gamepad >}} Alpha Playtesters
 
-Angela Bunning, Bekka Cavazos, Tori Cavazos, Ky Cofield, Wade Dismukes, Marcy Palomino, Declan Price
+Bekka Cavazos, Tori Cavazos, Marcy Palomino, Declan Price
 :::
 ::::
