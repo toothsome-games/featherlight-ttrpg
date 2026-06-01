@@ -25,6 +25,8 @@ website:
     right: 
       - text: "Design Team"
         href: design-team.qmd
+      - text: "Toothsome Games"
+        href: https://toothsome-games.github.io/
       - icon: github
         href: https://github.com/toothsome-games/featherlight-ttrpg
   page-footer: 
