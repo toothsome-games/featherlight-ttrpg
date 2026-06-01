@@ -6,7 +6,7 @@ _Featherlight_ is the work of a small but dedicated team and an **invaluable** s
 
 ::::{.columns}
 :::{.column width="49%"}
-### {{< fa feather >}} Design Lead
+### {{< fa feather >}} Creator
 
 [Nick J Lyon]((https://njlyon0.github.io/))
 
@@ -28,7 +28,7 @@ Galactic Spiral Characters: **[Sami Briggs](https://samibriggs.carrd.co/) (Smai)
 :::{.column width="49%"}
 ### {{< fa user-pen >}} Additional Design & Editing
 
-Angela Bunning, Brittany Cavazos, Ky Cofield, Wade Dismukes, Erica Holdmore, Josh Justison, Will Ruman, Gus Thies
+Angela Bunning, Brittany Cavazos, Kylin Cofield, Wade Dismukes, Erica Holdmore, Josh Justison, Will Ruman, Gus Thies
 
 #### {{< fa gamepad >}} Alpha Playtesters
 
