@@ -2,25 +2,25 @@
 title: "Design Team"
 ---
 
-_Featherlight_ is the work of a small but dedicated team and an **invaluable** set of playtesters. This website will try to list everyone but please reach out to the design team lead if you feel that your contributions are not properly recognized!
+_Featherlight_ is the work of a small but dedicated team and an _invaluable_ set of playtesters. This website will try to list everyone but please reach out to Featherlight's creator if you feel that your contributions are not properly recognized!
 
 ::::{.columns}
 :::{.column width="49%"}
 ### {{< fa feather >}} Creator
 
-[Nick J Lyon]((https://njlyon0.github.io/))
+**Nick J Lyon** | [{{< fa globe >}}](https://njlyon0.github.io/)
 
 ### {{< fa paintbrush >}} Artists
 
-Featherlight Logo: **[Gabriel De La Rosa](https://www.gabrieldelarosa.com/)**
+Featherlight Logo: **Gabriel De La Rosa** | [{{< fa globe >}}](https://www.gabrieldelarosa.com/)
 
-Cover Art & Setting Splash Pages: **TBD**
+Cover & Splash Pages: **KK** | (link TBD)
 
-Adirilan Map: **TBD**
+Galactic Spiral Characters: **Sami Briggs** (Smai) | [{{< fa globe >}}](https://samibriggs.carrd.co/)
 
-Adirilan Characters: **TBD**
+Adirilan Map: **Maddie Peckenpaugh** | (link TBD)
 
-Galactic Spiral Characters: **[Sami Briggs](https://samibriggs.carrd.co/) (Smai)**
+Adirilan Characters: **newgroundstier** | [{{< fa brands square-tumblr >}}](https://www.tumblr.com/newgroundstier)
 
 :::
 :::{.column width="2%"}
