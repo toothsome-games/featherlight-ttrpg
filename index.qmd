@@ -25,15 +25,13 @@ Once I have setting / character art, I'll be releasing new versions of the ruleb
 
 ### Quick-Start Guide
 
-A one-page, 'quick-start' guide to Featherlight is also available on {{< fa brands itch-io >}} itch.io. Check it out for an at-a-glance overview of the fundamental mechanics of Featherlight!
+A one-page, 'quick-start' guide to Featherlight is also available on {{< fa brands itch-io >}} itch.io _for free!_ Check it out for an at-a-glance overview of the fundamental mechanics of Featherlight!
 
 <p align="center"/>
 <iframe frameborder="0" src="https://itch.io/embed/4561528?linkback=true&amp;link_color=077DC2&amp;border_color=283E82" width="600" height="167"><a href="https://toothsome-games.itch.io/featherlight-quickstart">Featherlight Quick-Start Guide by Toothsome Games</a></iframe>
 </p>
 
-Just like the rulebook, this guide is PWYW, but if you can afford $2, that would be awesome and--again, just like the rulebook--would go to support the art I'm commissioning for custom Featherlight settings and quest hooks.
-
-If you like what you see in this guide, consider checking out the full rulebook for useful graphics, more description, and tips for those interested in running a Featherlight game at their table!
+If you like what you see in this guide, consider checking out [the full rulebook](https://toothsome-games.itch.io/featherlight-ttrpg) for useful graphics, more description, and tips for those interested in running a Featherlight game at their table!
 
 ### Character Sheet
 
