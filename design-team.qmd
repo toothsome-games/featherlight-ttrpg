@@ -8,15 +8,15 @@ _Featherlight_ is the work of a small but dedicated team and an _invaluable_ set
 :::{.column width="49%"}
 ### {{< fa feather >}} Creator
 
-**Nick J Lyon** | [{{< fa globe >}}](https://njlyon0.github.io/)
+**Nick J Lyon** | [{{< fa brands square-github >}}](https://njlyon0.github.io/)
 
 ### {{< fa paintbrush >}} Artists
 
-Featherlight Logo: **Gabriel De La Rosa** | [{{< fa globe >}}](https://www.gabrieldelarosa.com/)
+Featherlight Logo: **Gabriel De La Rosa** | [{{< fa square-arrow-up-right >}}](https://www.gabrieldelarosa.com/)
 
-Cover & Splash Pages: **KK Hong** | [{{< fa id-card >}}](https://kirukronosocials.carrd.co/)
+Cover & Splash Pages: **KK Hong** | [{{< fa square-arrow-up-right >}}](https://kirukronosocials.carrd.co/)
 
-Galactic Spiral Characters: **Sami Briggs** (Smai) | [{{< fa id-card >}}](https://samibriggs.carrd.co/)
+Galactic Spiral Characters: **Sami Briggs** (Smai) | [{{< fa square-arrow-up-right >}}](https://samibriggs.carrd.co/)
 
 Adirilan Map: **Maddie Peckenpaugh** | [{{< fa brands square-instagram >}}](https://www.instagram.com/maddelily/)
 
