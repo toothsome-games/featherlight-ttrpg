@@ -2,7 +2,11 @@
 
 <img src="images/logo_featherlight-text.png" alt="Featherlight logo--a stylized blue feather on an orange background" width="30%" align="right" />
 
-_Featherlight_ is a rules-light, setting-neutral tabletop role-playing game (TTRPG). _Featherlight_ is built to be as welcoming as possible for novice TTRPG players while still providing an enjoyable experience for more experienced players. This purpose also helps it be a great starting point for players interested in being the game master but intimidated by "crunchier" systems where it can feel impossible to know the rules well enough to be the arbiter of them in a game. Additionally, because the mechanics are so flexible, they can be easily applied to any world where you want to spend some more time (e.g., beloved book series, popular anime, personal OC/homebrew, etc.)!
+Tabletop role-playing games (TTRPGs) are a fun method of group storytelling, but complicated rule systems and steep initial learning curves often stop people from participating. To help more people enter the world of TTRPGs, _Featherlight_ is a TTRPG that is built to have lightweight, flexible rules that are easy to learn and can apply to any setting!
+
+It takes fewer than 20 minutes to learn the rules of _Featherlight_ well enough to play the game and maybe twice that time investment to be able to serve as the game master (GM) responsible for helping a group of players navigate the world.
+
+If you want to sit down with your friends and quickly start telling a story together, _Featherlight_ enables you to quickly get into the action while still allowing for the randomness introduced by using dice to determine success or failure! And that's regardless of whether the story is set in the world of a beloved book, favorite anime, personal homebrew setting, or somewhere else entirely.
 
 In short, **_Featherlight_ is built to be the backdrop for you to take big narrative swings in whatever setting sparks the most joy for your table**. Have fun and good luck!
 
